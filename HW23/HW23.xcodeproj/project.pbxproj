@@ -11,17 +11,37 @@
 		5ACA46582ACD5748006CFDF2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACA46572ACD5748006CFDF2 /* SceneDelegate.swift */; };
 		5ACA465D2ACD5748006CFDF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ACA465B2ACD5748006CFDF2 /* Main.storyboard */; };
 		5ACA465F2ACD574E006CFDF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ACA465E2ACD574E006CFDF2 /* Assets.xcassets */; };
-		5ACA46622ACD574E006CFDF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ACA46602ACD574E006CFDF2 /* LaunchScreen.storyboard */; };
+		62294EDE2ACE1530000E48E9 /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62294EDD2ACE1530000E48E9 /* AnimationViewController.swift */; };
+		625955992AD194D600899917 /* UIElementExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625955982AD194D600899917 /* UIElementExt.swift */; };
+		625955A32AD30CE800899917 /* bell.json in Resources */ = {isa = PBXBuildFile; fileRef = 6259559E2AD30CE800899917 /* bell.json */; };
+		625955A42AD30CE800899917 /* check-circle.json in Resources */ = {isa = PBXBuildFile; fileRef = 6259559F2AD30CE800899917 /* check-circle.json */; };
+		625955A52AD30CE800899917 /* phonelink-ring.json in Resources */ = {isa = PBXBuildFile; fileRef = 625955A02AD30CE800899917 /* phonelink-ring.json */; };
+		625955A62AD30CE800899917 /* settings.json in Resources */ = {isa = PBXBuildFile; fileRef = 625955A12AD30CE800899917 /* settings.json */; };
+		625955A72AD30CE800899917 /* block-mic.json in Resources */ = {isa = PBXBuildFile; fileRef = 625955A22AD30CE800899917 /* block-mic.json */; };
+		625955AF2AD31FB300899917 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 625955AE2AD31FB300899917 /* LaunchScreen.storyboard */; };
+		625955B52AD325B400899917 /* icons8-refresh.json in Resources */ = {isa = PBXBuildFile; fileRef = 625955B42AD325B400899917 /* icons8-refresh.json */; };
+		C9A10D4424DCFC441310B734 /* Pods_HW23.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A113ADF79D7744DD3EE3F02 /* Pods_HW23.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		50F64ABFD47181A59BC6F769 /* Pods-HW23.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HW23.debug.xcconfig"; path = "Target Support Files/Pods-HW23/Pods-HW23.debug.xcconfig"; sourceTree = "<group>"; };
 		5ACA46522ACD5748006CFDF2 /* HW23.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW23.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ACA46552ACD5748006CFDF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5ACA46572ACD5748006CFDF2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5ACA465C2ACD5748006CFDF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5ACA465E2ACD574E006CFDF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5ACA46612ACD574E006CFDF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5ACA46632ACD574E006CFDF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62294EDD2ACE1530000E48E9 /* AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AnimationViewController.swift; path = "HW23/Controllers/AnimationView /AnimationViewController.swift"; sourceTree = SOURCE_ROOT; };
+		625955982AD194D600899917 /* UIElementExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIElementExt.swift; sourceTree = "<group>"; };
+		6259559E2AD30CE800899917 /* bell.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bell.json; sourceTree = "<group>"; };
+		6259559F2AD30CE800899917 /* check-circle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "check-circle.json"; sourceTree = "<group>"; };
+		625955A02AD30CE800899917 /* phonelink-ring.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "phonelink-ring.json"; sourceTree = "<group>"; };
+		625955A12AD30CE800899917 /* settings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = settings.json; sourceTree = "<group>"; };
+		625955A22AD30CE800899917 /* block-mic.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "block-mic.json"; sourceTree = "<group>"; };
+		625955AE2AD31FB300899917 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		625955B42AD325B400899917 /* icons8-refresh.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "icons8-refresh.json"; sourceTree = "<group>"; };
+		80D08925CA469D9E5D607F15 /* Pods-HW23.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HW23.release.xcconfig"; path = "Target Support Files/Pods-HW23/Pods-HW23.release.xcconfig"; sourceTree = "<group>"; };
+		8A113ADF79D7744DD3EE3F02 /* Pods_HW23.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HW23.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +49,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9A10D4424DCFC441310B734 /* Pods_HW23.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3883CFA2F279D5B061898A1D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				50F64ABFD47181A59BC6F769 /* Pods-HW23.debug.xcconfig */,
+				80D08925CA469D9E5D607F15 /* Pods-HW23.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		5ACA46492ACD5748006CFDF2 = {
 			isa = PBXGroup;
 			children = (
 				5ACA46542ACD5748006CFDF2 /* HW23 */,
 				5ACA46532ACD5748006CFDF2 /* Products */,
+				3883CFA2F279D5B061898A1D /* Pods */,
+				AD39EA6BAFDFADC7FEB40D83 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +90,7 @@
 				5ACA466C2ACD57A8006CFDF2 /* Models */,
 				5ACA46692ACD575D006CFDF2 /* Views */,
 				5ACA466D2ACD57C3006CFDF2 /* Controllers */,
+				62294EDB2ACE1499000E48E9 /* Assets */,
 				5ACA466A2ACD5771006CFDF2 /* Application */,
 			);
 			path = HW23;
@@ -67,7 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				5ACA465B2ACD5748006CFDF2 /* Main.storyboard */,
-				5ACA46602ACD574E006CFDF2 /* LaunchScreen.storyboard */,
+				625955AE2AD31FB300899917 /* LaunchScreen.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -77,7 +110,6 @@
 			children = (
 				5ACA46552ACD5748006CFDF2 /* AppDelegate.swift */,
 				5ACA46572ACD5748006CFDF2 /* SceneDelegate.swift */,
-				5ACA465E2ACD574E006CFDF2 /* Assets.xcassets */,
 				5ACA46632ACD574E006CFDF2 /* Info.plist */,
 			);
 			path = Application;
@@ -86,6 +118,7 @@
 		5ACA466B2ACD579E006CFDF2 /* Extentions */ = {
 			isa = PBXGroup;
 			children = (
+				625955982AD194D600899917 /* UIElementExt.swift */,
 			);
 			path = Extentions;
 			sourceTree = "<group>";
@@ -100,8 +133,55 @@
 		5ACA466D2ACD57C3006CFDF2 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				6259559B2AD1998700899917 /* LounchScreen */,
+				6259559A2AD1997300899917 /* AnimationView  */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		62294EDB2ACE1499000E48E9 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				62294EDC2ACE14C7000E48E9 /* Animations */,
+				5ACA465E2ACD574E006CFDF2 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		62294EDC2ACE14C7000E48E9 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				625955B42AD325B400899917 /* icons8-refresh.json */,
+				6259559E2AD30CE800899917 /* bell.json */,
+				625955A22AD30CE800899917 /* block-mic.json */,
+				6259559F2AD30CE800899917 /* check-circle.json */,
+				625955A02AD30CE800899917 /* phonelink-ring.json */,
+				625955A12AD30CE800899917 /* settings.json */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		6259559A2AD1997300899917 /* AnimationView  */ = {
+			isa = PBXGroup;
+			children = (
+				62294EDD2ACE1530000E48E9 /* AnimationViewController.swift */,
+			);
+			path = "AnimationView ";
+			sourceTree = "<group>";
+		};
+		6259559B2AD1998700899917 /* LounchScreen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LounchScreen;
+			sourceTree = "<group>";
+		};
+		AD39EA6BAFDFADC7FEB40D83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A113ADF79D7744DD3EE3F02 /* Pods_HW23.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -111,9 +191,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5ACA46662ACD574E006CFDF2 /* Build configuration list for PBXNativeTarget "HW23" */;
 			buildPhases = (
+				56D94F16D930126904EB7CBA /* [CP] Check Pods Manifest.lock */,
 				5ACA464E2ACD5748006CFDF2 /* Sources */,
 				5ACA464F2ACD5748006CFDF2 /* Frameworks */,
 				5ACA46502ACD5748006CFDF2 /* Resources */,
+				E389D999061AE99E597F42C9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -162,19 +244,69 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5ACA46622ACD574E006CFDF2 /* LaunchScreen.storyboard in Resources */,
+				625955B52AD325B400899917 /* icons8-refresh.json in Resources */,
+				625955A62AD30CE800899917 /* settings.json in Resources */,
+				625955A32AD30CE800899917 /* bell.json in Resources */,
+				625955AF2AD31FB300899917 /* LaunchScreen.storyboard in Resources */,
+				625955A52AD30CE800899917 /* phonelink-ring.json in Resources */,
 				5ACA465F2ACD574E006CFDF2 /* Assets.xcassets in Resources */,
+				625955A42AD30CE800899917 /* check-circle.json in Resources */,
 				5ACA465D2ACD5748006CFDF2 /* Main.storyboard in Resources */,
+				625955A72AD30CE800899917 /* block-mic.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		56D94F16D930126904EB7CBA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HW23-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E389D999061AE99E597F42C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HW23/Pods-HW23-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HW23/Pods-HW23-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HW23/Pods-HW23-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5ACA464E2ACD5748006CFDF2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				625955992AD194D600899917 /* UIElementExt.swift in Sources */,
+				62294EDE2ACE1530000E48E9 /* AnimationViewController.swift in Sources */,
 				5ACA46562ACD5748006CFDF2 /* AppDelegate.swift in Sources */,
 				5ACA46582ACD5748006CFDF2 /* SceneDelegate.swift in Sources */,
 			);
@@ -189,14 +321,6 @@
 				5ACA465C2ACD5748006CFDF2 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5ACA46602ACD574E006CFDF2 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5ACA46612ACD574E006CFDF2 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -239,7 +363,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -302,7 +426,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -323,6 +447,7 @@
 		};
 		5ACA46672ACD574E006CFDF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50F64ABFD47181A59BC6F769 /* Pods-HW23.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -332,7 +457,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HW23/Application/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -351,6 +476,7 @@
 		};
 		5ACA46682ACD574E006CFDF2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80D08925CA469D9E5D607F15 /* Pods-HW23.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -360,7 +486,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HW23/Application/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
