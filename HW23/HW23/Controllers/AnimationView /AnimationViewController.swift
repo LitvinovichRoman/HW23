@@ -24,7 +24,6 @@ final class AnimationViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUI()
-        //setupLottieAnimationView()
     }
     
     // MARK: - configure UI
